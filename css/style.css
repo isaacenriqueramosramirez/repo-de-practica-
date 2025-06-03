@@ -1,0 +1,24 @@
+.add-button{
+    position: fixed;
+    bottom: 30px;
+    right: 35px;
+    background-color:rgb(155, 155, 155);
+    border: none;
+    border-radius: 50%;/*para hacer que el boton quede redondo*/
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px  10px rgba(160, 155, 155, 0.5);
+    z-index: 1001;
+    transition: transform 0.4s;
+}
+
+.add-button:hover{
+    transform: scale(1.1);
+
+}
+.tabla-scroll{
+    
+}
